@@ -13,7 +13,47 @@
 </h2>
 
 
-## Spesifikasi
+## Description
+
+## Specification
+
+## How to Use
+
+## JSON Structure
+![JSON Structure](
+
+## Database Structure
+
+## ERD to Relational Diagram Translation Process
+1. Create a table(s) and add attributes for each **strong entity** in ERD and add a mark for the primary key.
+2. Create table(s) and add attributes for each **weak entity** and include the** referenced strong entity's primary key(s)** to the table.
+3. If there is any composite attribute, flatten it out and create separate attributes for each component.
+4. If there is any multivalue attribute ("Address" in customer entity), create a separate table and add a primary key(s) from its initial entity (customer). Set all attributes in that table as primary keys.
+5. If there is any derived attribute, eliminate it from the table.
+6. Check for cardinality (one-to-one, one-to-many, or many-to-many) of the relationship in ERD.
+    - Many-to-Many : Create a new table and name it after the relationship. Add all the primary keys from related entities as the table's primary keys.
+    - One-to-Many  : Add extra attribute(s) to the "many" side, containing the primary key(s) of the "one" side.
+    - One-to-One   : Chose an entity to act as the "many" side and add an extra attribute(s), containing the primary key(s) of the "one" side.
+7. Determine all the foreign keys by adding arrows, where the arrowhead is pointing to the referenced attribute.
+
+## Screenshot
+
+## Reference
+Library used :
+1. BeautifulSoup
+2. Requests
+3. Re
+4. Pandas
+5. NumPy
+6. Seaborn
+7. Matplotlib.pyplot
+
+##
+<h2 align="center">
+  Fredrick Runie Taslim | 18221156
+  <br>
+  <br>
+</h2>
 
 ### Data Scraping
 
