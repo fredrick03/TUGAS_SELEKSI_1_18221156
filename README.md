@@ -20,9 +20,20 @@
 ## How to Use
 
 ## JSON Structure
-![JSON Structure](
+![JSON Structure](https://github.com/fredrick03/TUGAS_SELEKSI_1_18221156/blob/main/Data%20Scraping/data/C%26F_sale_fragrances_cleaned.json)
 
 ## Database Structure
+**Entity Relationship Diagram**
+<br>
+<br>
+![ERD](https://github.com/fredrick03/TUGAS_SELEKSI_1_18221156/blob/main/Data%20Scraping/data/C%26F_sale_fragrances_cleaned.json)
+<br>
+<br>
+<br>
+**Relational Diagram**
+<br>
+<br>
+![Relational Diagram](https://github.com/fredrick03/TUGAS_SELEKSI_1_18221156/blob/main/Data%20Scraping/data/C%26F_sale_fragrances_cleaned.json)
 
 ## ERD to Relational Diagram Translation Process
 1. Create a table(s) and add attributes for each **strong entity** in ERD and add a mark for the primary key.
@@ -37,6 +48,10 @@
 7. Determine all the foreign keys by adding arrows, where the arrowhead is pointing to the referenced attribute.
 
 ## Screenshot
+**Loaded Database**
+<br>
+<br>
+![Loaded Database](https://github.com/fredrick03/TUGAS_SELEKSI_1_18221156/blob/main/Data%20Scraping/data/C%26F_sale_fragrances_cleaned.json)
 
 ## Reference
 Library used :
